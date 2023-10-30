@@ -1,5 +1,5 @@
 require './operation.rb'
-class Sum < Operation
+class Subtraction < Operation
   attr_reader :operands
 
   def initialize(operands)

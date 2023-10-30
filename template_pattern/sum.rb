@@ -1,4 +1,5 @@
-class Sum
+require './operation.rb'
+class Sum < Operation
   attr_reader :operands
 
   def initialize(operands)
@@ -19,25 +20,4 @@ class Sum
   def calculate
     @operands.reduce(0) { |acumulator, operand| acumulator += operand }
   end
-
-  def output_header
-    puts 'Starting operation'
-  end
-
-  def output_title
-    puts "Operatio type: #{@title}"
-  end
-
-  def output_operands
-    puts "Operand list #{@operands}"
-  end
-
-  def output_result
-    puts "Result: #{calculate}"
-  end
-
-  def output_footer
-    "End of operation"
-  end
-
 end

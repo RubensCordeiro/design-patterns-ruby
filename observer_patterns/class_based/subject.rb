@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class Subject
   def initialize(observers = [])
     @observers = observers

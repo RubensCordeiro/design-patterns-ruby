@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative './employee'
 
 hr = proc do |employee, change|

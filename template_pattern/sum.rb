@@ -1,4 +1,6 @@
-require './operation.rb'
+# frozen_string_literal: true
+
+require './operation'
 class Sum < Operation
   attr_reader :operands
 
@@ -18,6 +20,6 @@ class Sum < Operation
   private
 
   def calculate
-    @operands.reduce(0) { |acumulator, operand| acumulator += operand }
+    @operands.reduce(0) { |acumulator, operand| acumulator + operand }
   end
 end

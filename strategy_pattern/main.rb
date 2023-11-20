@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative('brazil_tax_service')
 require_relative('tax_service_with_proc')
 require_relative('./state_taxes/sao_paulo')

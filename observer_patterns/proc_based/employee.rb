@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class Employee
   attr_accessor :name, :title
   attr_reader :salary

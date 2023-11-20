@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative './subject'
 class Employee < Subject
   attr_accessor :name, :title

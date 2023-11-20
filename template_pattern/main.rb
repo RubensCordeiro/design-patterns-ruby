@@ -1,5 +1,7 @@
-require './sum.rb'
-require './subtraction.rb'
+# frozen_string_literal: true
+
+require './sum'
+require './subtraction'
 
 operands = (1..10).to_a
 

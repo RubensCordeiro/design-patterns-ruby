@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class Operation
   attr_reader :operands
 
@@ -37,7 +39,6 @@ class Operation
   end
 
   def output_footer
-    "End of operation"
+    'End of operation'
   end
-
 end
